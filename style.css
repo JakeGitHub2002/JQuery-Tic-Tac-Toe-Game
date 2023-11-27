@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&family=Nunito+Sans:opsz@6..12&family=Nunito:wght@600&family=Permanent+Marker&family=REM&family=Roboto+Slab:wght@100&family=Rowdies&family=Rubik+Gemstones&family=Ysabeau+Office:wght@500&display=swap');
+
+
+
+
+body{
+    height: 95vh;
+    width: 95vw;
+    background-color: rgb(225, 225, 225);
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Nunito Sans';
+    flex-direction: column;
+}
+
+.game{
+    background-image: url(images/tttb.png);
+    height: 330px;
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:25px;
+    border: 3px solid black;
+
+}
+
+.a{
+    height: 90px ;
+    width: 90px;
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.aactive{
+    background-color: rgb(255, 255, 255);
+}
+
+.xactive{
+    height: 90px ;
+    width: 90px;
+    display: block;
+    margin: 10px;
+    pointer-events: none;
+    cursor: none;
+    background-image: url(images/3dx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oactive{
+    height: 90px ;
+    width: 90px;
+    display: block;
+    margin: 10px;
+    pointer-events: none;
+    cursor: none;
+    background-image: url(images/3do.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.aactive:hover{
+    background-color: rgb(139, 139, 139);
+    opacity: .3;
+}
+
+
+
+.holder{
+    margin:25px;
+    align-items: center;
+}
+
+
+#hssection{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    font-weight: 700;
+}
+
+#scoreHolder{
+    margin:25px;
+    align-items: center;
+}
+
+#currentSection{
+    margin-bottom:10px;
+    font-weight: 700;
+}
+
+#reset{
+    align-self: center;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(241, 155, 155);
+    font-size: 24px;
+    font-weight: 500;
+    height: 32px;
+    width: 96px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: rgb(247, 113, 113);
+}
+
+#status{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+#holderStat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.En{
+opacity: 1;
+}
+
+.notEn{
+    opacity:0;
+}
+
+#holder1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

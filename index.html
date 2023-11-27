@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h3 id="status" class="notEn"></h3>
+
+    <section id="holder1">
+<container class="holder">
+<h3 class="title">Welcome To Tic Tac Toe!</h3>
+<p2 class="subTitle"> Click any square to begin.</p2>
+</container>
+
+<container class="game">
+    <div class="a aactive"onclick= "boxSelected(event)" id="a1"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a2"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a3"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a4"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a5"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a6"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a7"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a8"></div>
+    <div class="a aactive"onclick= "boxSelected(event)" id="a9"></div>
+</container>
+
+
+    <article id="scoreHolder">
+        <section id="currentSection">
+            <p id="currentWins">Current Wins: 0 </p>
+            <p id="currentLosses">Current losses: 0</p>
+        </section>
+        <section id="hssection">
+        <p id="hs"></p>
+    <button id="reset" onclick="reset()">Reset</button>
+</section>
+</article>
+
+</section>
+
+
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
